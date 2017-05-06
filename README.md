@@ -1,2 +1,4 @@
 # clean-backup-history
 Open Source Community: This script is designed to clean up backup history from the msdb database.  If not cleaned up regularly, lots of backup history can bloat the msdb system database and has some potential to slow down certain operations. Trying to clean up lots of backup history at once can be problematic as well, so this script does it in batches (batch size determined by the @daysAtOnce variable).  Performing the cleanup in smaller batches reduces contention and potential blocking.
+
+While this is an open source project on the kCura GitHub account, support is only available through through the Relativity developer community. You are welcome to use the code and solution as you see fit within the confines of the license it is released under. However, if you are looking for support or modifications to the solution, we suggest reaching out to a [Relativity Development Partner](https://www.kcura.com/relativity/ediscovery-resources/ecosystem).
