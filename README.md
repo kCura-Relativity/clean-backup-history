@@ -1,0 +1,2 @@
+# clean-backup-history
+Open Source Community: This script is designed to clean up backup history from the msdb database.  If not cleaned up regularly, lots of backup history can bloat the msdb system database and has some potential to slow down certain operations. Trying to clean up lots of backup history at once can be problematic as well, so this script does it in batches (batch size determined by the @daysAtOnce variable).  Performing the cleanup in smaller batches reduces contention and potential blocking.
